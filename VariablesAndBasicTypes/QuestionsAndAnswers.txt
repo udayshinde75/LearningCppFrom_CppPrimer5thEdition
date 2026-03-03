@@ -1,0 +1,10 @@
+Questions
+
+Exercise 2.1: What are the differences between int, long, longlong, and short?
+Between an unsigned and a signed type? Between a float and a double?
+Ans : the real difference is : storage size and range of values. short(2 bytes : -32768 to 32767). Int(4 bytes : -2 billion to +2 billion). long(4 or 8 bytes : depend on OS). Long long(8bytes)
+
+
+Exercise 2.2: To calculate a mortgage payment, what types would you use for the rate,
+principal, and payment? Explain why you selected each type. Ans : Double for everything, as all values can be in fractions,  and they require high precision.
+
